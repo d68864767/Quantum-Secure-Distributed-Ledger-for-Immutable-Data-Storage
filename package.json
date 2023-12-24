@@ -1,0 +1,49 @@
+{
+  "name": "quantum-secure-distributed-ledger",
+  "version": "1.0.0",
+  "description": "A distributed ledger system with quantum-resistant cryptography for secure and immutable data storage",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/quantum-secure-distributed-ledger.git"
+  },
+  "keywords": [
+    "quantum-resistant",
+    "cryptography",
+    "distributed-ledger",
+    "blockchain",
+    "data-storage",
+    "immutable",
+    "secure"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yourusername/quantum-secure-distributed-ledger/issues"
+  },
+  "homepage": "https://github.com/yourusername/quantum-secure-distributed-ledger#readme",
+  "dependencies": {
+    "node": "^14.15.1",
+    "express": "^4.17.1",
+    "hyperledger-fabric": "^2.2.0",
+    "cassandra-driver": "^4.6.3",
+    "aws-sdk": "^2.814.0",
+    "solidity": "^0.7.4",
+    "web3": "^1.3.0",
+    "compression": "^1.7.4",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "morgan": "^1.10.0",
+    "helmet": "^4.4.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
